@@ -37,6 +37,8 @@ public class BannerColors: BannerColorsProtocol {
                 return UIColor(red:0.22, green:0.80, blue:0.46, alpha:1.00)
             case .warning:
                 return UIColor(red:1.00, green:0.66, blue:0.16, alpha:1.00)
+            case .none:
+                return UIColor(red:1.00, green:1.0, blue:1.0, alpha:1.00)
         }
     }
 }

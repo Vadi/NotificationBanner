@@ -25,5 +25,6 @@ public enum BannerStyle: Int {
     case customView
     case success
     case warning
+    case none
 }
 
